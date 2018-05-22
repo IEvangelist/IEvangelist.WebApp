@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ievangelist.webapp:
+    image: ${DOCKER_REGISTRY}ievangelistwebapp
+    build:
+      context: .
+      dockerfile: IEvangelist.WebApp\Dockerfile

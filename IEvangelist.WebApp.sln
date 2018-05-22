@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEvangelist.WebApp", "IEvangelist.WebApp\IEvangelist.WebApp.csproj", "{B83BF830-9477-423E-8D49-231739CCA0A1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{75006BBD-A76B-46BF-9E5A-D58684A26E9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B83BF830-9477-423E-8D49-231739CCA0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83BF830-9477-423E-8D49-231739CCA0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83BF830-9477-423E-8D49-231739CCA0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83BF830-9477-423E-8D49-231739CCA0A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75006BBD-A76B-46BF-9E5A-D58684A26E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75006BBD-A76B-46BF-9E5A-D58684A26E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75006BBD-A76B-46BF-9E5A-D58684A26E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75006BBD-A76B-46BF-9E5A-D58684A26E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1EB8278-2DCC-4736-9239-1926F9793302}
+	EndGlobalSection
+EndGlobal
