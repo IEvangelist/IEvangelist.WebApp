@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace IEvangelist.WebApp.Pages
 {
@@ -10,9 +6,6 @@ namespace IEvangelist.WebApp.Pages
     {
         public string Message { get; set; }
 
-        public void OnGet()
-        {
-            Message = "Your contact page.";
-        }
+        public void OnGet() => Message = nameof(IEvangelist);
     }
 }
